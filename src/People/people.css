@@ -1,0 +1,47 @@
+#people-page {
+    padding: 5px;
+    text-align: center;
+    /* text-shadow: 2px 2px 5px #FFE002; */
+}
+
+#people-page h6 {
+    color: #FFB606;
+
+
+}
+
+/* h1.uppercase {
+    text-transform: uppercase;
+  }
+  
+h1.lowercase {
+    text-transform: lowercase;
+  } */
+  
+h1.capitalize {
+    text-transform: capitalize;
+  }
+
+h6.capitalize {
+    text-transform: capitalize;
+  }
+
+.person {
+    background-color: #3B3B3B;
+    padding: 5px ;
+}
+
+.person h1{
+    color: #FFB606;
+    font-style: oblique;
+
+
+}
+
+.person h6{
+    color: #B28228;
+
+
+
+}
+
