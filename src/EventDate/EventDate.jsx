@@ -1,4 +1,5 @@
 import React from "react";
+import './event-date.css'
 
 class EventDate extends React.Component {
     constructor(props){
@@ -17,22 +18,19 @@ class EventDate extends React.Component {
     }
 
     render() {
-        console.log(this.state.akad)
         return (
-            <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-                <table>
-                <tr>
-                    <td>Hari, Tanggal</td>
-                    <td>Pukul Jam WIB</td>
-                    <td>di {this.state.akad.place}</td>
-                </tr>
-                <tr>
-                    <td>Hari, Tanggal</td>
-                    <td>Pukul Jam WIB</td>
-                    <td>di {this.state.reception.place}</td>
-                </tr>
-                </table>
-            </div>
+            <>
+                <div className="date-class">
+                    <h5 className="capitalize">Hari, Tanggal</h5>
+                    <h5 >Pukul Jam WIB</h5>
+                    <h5 className="capitalize">di {this.state.akad.place}</h5>
+                </div>
+                <div className="date-class">
+                    <h5 className="capitalize">Hari, Tanggal</h5>
+                    <h5 >Pukul Jam WIB</h5>
+                    <h5 className="capitalize">di {this.state.reception.place}</h5>
+                </div>
+            </>
         );
         }
     }

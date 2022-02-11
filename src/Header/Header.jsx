@@ -1,4 +1,8 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+import './header.css'
 
 class Header extends React.Component {
     constructor(props){
@@ -22,10 +26,11 @@ class Header extends React.Component {
     render() {
       console.log(this.state.nickname_one)
       return (
-        <div>
-          <img className="icon-initial" alt=""></img>
+        <nav>
+          <FontAwesomeIcon className="icon" icon={faCoffee} />
+          {/* <img className="icon-initial" alt=""></img> */}
           <h6 className="name-initial">{this.state.nickname_one} & {this.state.nickname_two}</h6>
-        </div>
+        </nav>
       );
     }
   }

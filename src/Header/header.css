@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  align-items: center;
+  background-color: #1B1B1B;
+  padding: 10px 5px;
+}
+
+nav > .icon  {
+  height: 30px;
+  margin-right: 5px;
+  color: #B28228;
+  padding: 10px;
+
+}
+
+nav > h6.name-initial{
+  margin: 0;
+  color: #B28228;
+  font-size: large;
+  font-weight: 22px;
+}

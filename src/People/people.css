@@ -4,10 +4,8 @@
     /* text-shadow: 2px 2px 5px #FFE002; */
 }
 
-#people-page h6 {
-    color: #FFB606;
-
-
+h6 {
+  color: #B28228;
 }
 
 /* h1.uppercase {
@@ -34,13 +32,6 @@ h6.capitalize {
 .person h1{
     color: #FFB606;
     font-style: oblique;
-
-
-}
-
-.person h6{
-    color: #B28228;
-
 
 
 }
