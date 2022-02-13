@@ -1,0 +1,16 @@
+.footer{
+    background-color: #FFB606;
+    position:relative;
+    width: 100%;
+    height: 50px;
+}
+
+.icon {
+  height: 3px;
+}
+
+.footnote {
+  font-style: oblique;
+  color: #B28228;
+  font-size:medium;
+}

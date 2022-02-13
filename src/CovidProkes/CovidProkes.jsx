@@ -1,21 +1,36 @@
 import React from "react";
+import './prokes.css'
 
 class CovidProkes extends React.Component {
-    render() {
-      const prokes = this.props.data.covid_prokes
-  
-      console.log(prokes)
-  
-      return (
+  constructor(props){
+    super(props);
+    this.state = {
+      prokes:''
+    }
+  }
+
+  componentDidMount = () => {
+    this.setState({
+      prokes: this.props.data.covid_prokes
+    })
+  }
+
+  render() {
+    return (
+      <>
+        <div className="prokes">
+          <h1 className="prokes-title">Protokol Kesehatan Covid-19</h1>
+        </div>
+        
         <div>
-          <h3>Protokol Covid-19</h3>
-          <ul>
-            <li>{prokes.one}</li>
-            <li>{prokes.two}</li>
+          <ul className="no-bullets">
+            <li>{this.state.prokes.one}</li>
+            <li>{this.state.prokes.two}</li>
           </ul>
         </div>
-      );
-    }
+      </>
+    );
+  }
 }
 
 export default CovidProkes;

@@ -12,10 +12,10 @@ class Footer extends React.Component {
 
     render() {
       return (
-        <nav>
+        <nav className="footer">
           {/* <img className="icon-initial" alt=""></img> */}
-          <h6 className="name-initial">Made with Love 2022</h6>
-          <FontAwesomeIcon icon={faCopyright}/>
+          <h5 className="footnote">Made with Love </h5><FontAwesomeIcon className="icon" icon={faCopyright}/>
+          <h5 className="footnote">2022</h5>
         </nav>
       );
     }

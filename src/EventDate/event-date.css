@@ -1,10 +1,22 @@
-.date-class {
+/* .container {
     padding: 5px;
     text-align: center;
-    /* text-shadow: 2px 2px 5px #FFE002; */
+} */
+
+.date-class {
+    margin-top: 25px;
+    padding: 5px;
+    text-align: center;
 }
 
-h5 {
+.event {
     color: #FFB606;
-    font-style: oblique;
+    font-family: 'Cookie', cursive;
+    font-size: large;
 }
+
+h5.capitalize {
+    text-transform: capitalize;
+}
+
+  

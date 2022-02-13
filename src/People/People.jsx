@@ -21,16 +21,16 @@ class People extends React.Component{
         <>
          <div className="person">
             <h1 className="capitalize">{this.state.bride.name}</h1>
-            <h6 >Putri dari Bapak {this.state.bride.dad} & Ibu {this.state.bride.mom}</h6>
-            <h6 className="capitalize">{this.state.bride.address}</h6>
+            <p className="content-txt">Putri dari Bapak {this.state.bride.dad} & Ibu {this.state.bride.mom}</p>
+            <p className="content-txt capitalize">{this.state.bride.address}</p>
           </div>
           <div>
-            <h6 className="capitalize">dengan</h6>
+            <h3 className="content-txt capitalize">dengan</h3>
           </div>
           <div  className="person">
-            <h1 className="capitalize">{this.state.groom.name}</h1>
-            <h6>Putra dari Bapak {this.state.groom.dad} & Ibu {this.state.groom.mom}</h6>
-            <h6 className="capitalize">{this.state.groom.address}</h6>
+            <h1 className="content-txt capitalize">{this.state.groom.name}</h1>
+            <p className="content-txt">Putra dari Bapak {this.state.groom.dad} & Ibu {this.state.groom.mom}</p>
+            <p className="content-txt capitalize">{this.state.groom.address}</p>
           </div>
         </>
       )

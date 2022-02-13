@@ -1,5 +1,8 @@
 import React from "react";
 import './event-date.css'
+import moment from 'moment/min/moment-with-locales';
+
+moment.locale('id');
 
 class EventDate extends React.Component {
     constructor(props){
@@ -12,8 +15,18 @@ class EventDate extends React.Component {
     
     componentDidMount = () => {
         this.setState({
-            akad : this.props.data.akad,
-            reception : this.props.data.reception
+            akad : {
+                day : moment(this.props.data.akad.date).format('dddd'),
+                date : moment(this.props.data.akad.date).format('Do MMMM YYYY'),
+                time : moment(this.props.data.akad.date).format('HH : ss'),
+                place : this.props.data.akad.place
+            },
+            reception : {
+                day : moment(this.props.data.reception.date).format('dddd'),
+                date : moment(this.props.data.reception.date).format('Do MMMM YYYY'),
+                time : moment(this.props.data.reception.date).format('HH : ss'),
+                place : this.props.data.reception.place
+            }
         })
     }
 
@@ -21,14 +34,16 @@ class EventDate extends React.Component {
         return (
             <>
                 <div className="date-class">
-                    <h5 className="capitalize">Hari, Tanggal</h5>
-                    <h5 >Pukul Jam WIB</h5>
-                    <h5 className="capitalize">di {this.state.akad.place}</h5>
+                    <h1 className="event">Akad Nikah</h1>
+                    <p className="capitalize event">Hari {this.state.akad.day}, Tanggal {this.state.akad.date}</p>
+                    <p className="capitalize event">Pukul {this.state.akad.time} WIB</p>
+                    <p className="capitalize event">di {this.state.akad.place}</p>
                 </div>
                 <div className="date-class">
-                    <h5 className="capitalize">Hari, Tanggal</h5>
-                    <h5 >Pukul Jam WIB</h5>
-                    <h5 className="capitalize">di {this.state.reception.place}</h5>
+                    <h1 className="event">Resepsi</h1>
+                    <p className="capitalize event">Hari {this.state.reception.day}, Tanggal {this.state.reception.date}</p>
+                    <p className="capitalize event">Pukul {this.state.reception.time} WIB</p>
+                    <p className="capitalize event">di {this.state.reception.place}</p>
                 </div>
             </>
         );

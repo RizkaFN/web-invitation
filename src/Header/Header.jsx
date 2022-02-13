@@ -1,35 +1,34 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faD, faDove } from '@fortawesome/free-solid-svg-icons'
 
 import './header.css'
 
 class Header extends React.Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            // nickname : {
-            //     one : '',
-            //     two : ''
-            // }
-            nickname_one : '',
-            nickname_two : ''
-        }
-    }
+    // constructor(props){
+    //     super(props);
+    //     this.state = {
+    //         // nickname : {
+    //         //     one : '',
+    //         //     two : ''
+    //         // }
+    //         nickname_one : '',
+    //         nickname_two : ''
+    //     }
+    // }
 
-    componentDidMount = () => {
-        this.setState({
-            nickname_one : this.props.data.bride.nickname,
-            nickname_two : this.props.data.groom.nickname
-        })
-    }
+    // componentDidMount = () => {
+    //     this.setState({
+    //         nickname_one : this.props.data.bride.nickname,
+    //         nickname_two : this.props.data.groom.nickname
+    //     })
+    // }
     render() {
-      console.log(this.state.nickname_one)
       return (
         <nav>
-          <FontAwesomeIcon className="icon" icon={faCoffee} />
-          {/* <img className="icon-initial" alt=""></img> */}
-          <h6 className="name-initial">{this.state.nickname_one} & {this.state.nickname_two}</h6>
+          <FontAwesomeIcon className="icon" icon={faDove} />
+          {/* <img className="icon" src="../../public/ring.png" alt=""></img> */}
+          <h6 className="name-initial">The Wedding of {this.props.data.bride.nickname} & {this.props.data.groom.nickname}</h6>
         </nav>
       );
     }

@@ -1,38 +1,30 @@
-#people-page {
+/* .container {
     padding: 5px;
     text-align: center;
-    /* text-shadow: 2px 2px 5px #FFE002; */
-}
+} */
 
-h6 {
+.content-txt {
   color: #B28228;
+  font-family: 'Cookie', cursive;
+  font-size: large;
 }
 
-/* h1.uppercase {
-    text-transform: uppercase;
-  }
-  
-h1.lowercase {
-    text-transform: lowercase;
-  } */
-  
-h1.capitalize {
-    text-transform: capitalize;
-  }
-
-h6.capitalize {
+h5.capitalize {
     text-transform: capitalize;
   }
 
 .person {
-    background-color: #3B3B3B;
     padding: 5px ;
+    text-align: center;
 }
 
 .person h1{
     color: #FFB606;
-    font-style: oblique;
+    font-family: 'Pinyon Script', cursive;
+    font-size: xx-large;
+}
 
-
+h1.capitalize {
+  text-transform: capitalize;
 }
 

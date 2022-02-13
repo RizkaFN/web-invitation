@@ -1,11 +1,78 @@
-#main-page {
-    /* display: flex; */
+.container {
     max-width: 100%;
-    height: 100%;
-    /* border: 15px solid; */
-    padding: 50px;
-    margin: auto;
+    padding: 2px 16px;
     background-color: #292929;
-    /* outline-style: dashed; */
+    /* background-image: url(../../public/symbol.png); */
+    background-image: url(../../public/symbol2.png);
+    background-repeat: no-repeat;
+    background-position-x: 130%;
+    background-position-y: top;
     text-align: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row-inline {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row-inline:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #1c1c1c;
+    height: 425px;
+    transition: 0.3s;
+    margin: auto;
+    padding: 5px;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 #1c1c1c;
+}
+
+.card-map {
+    box-shadow: 0 4px 8px 0 #1c1c1c;
+    transition: 0.3s;
+    margin: auto;
+    padding: 5px;
+}
+
+.card-map:hover{
+    box-shadow: 0 8px 16px 0 #1c1c1c;
+}
+
+.card-p {
+    box-shadow: 0 4px 8px 0 #1c1c1c;
+    transition: 0.3s;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.card-p:hover{
+    box-shadow: 0 8px 16px 0 #1c1c1c;
+}
+
+
+.column-other {
+    float: center;
+    width: 100%;
+    padding: 0 10px;
 }
