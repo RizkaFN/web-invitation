@@ -1,7 +1,8 @@
 import React from "react";
 import L from "leaflet";
 import { MapContainer, Marker, TileLayer } from "react-leaflet";
-import osm from "./osm-dark";
+// import osm from "./osm-dark";
+import osm from "./osm-providers";
 import "leaflet/dist/leaflet.css";
 import './map.css';
 

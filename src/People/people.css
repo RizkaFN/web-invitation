@@ -1,11 +1,11 @@
 h1.content-txt {
-  color: #DD9900;
+  /* color: #DD9900; */
   font-family: 'Pinyon Script', cursive;
   font-size: xx-large;
 }
 
 .content-txt {
-  color: #B68005;
+  /* color: #B68005; */
   font-family: 'Cookie', cursive;
   font-size: large;
 }
@@ -20,7 +20,7 @@ h5.capitalize {
 }
 
 .person h1{
-  color: #DD9900;
+  color: #FFB606;
   font-family: 'Pinyon Script', cursive;
   font-size:3rem;
 }

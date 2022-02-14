@@ -4,13 +4,13 @@
 }
 
 h1.prokes-title {
-    color: #B68005;
+    /* color: #B68005; */
     font-family: 'Cookie', cursive;
     font-size: 3rem;}
 
 ul.no-bullets{
-    color: #DD9900;
-    font-size: large;
+    color: #FFFFFF;
+    /* font-size: large; */
     list-style-type: none;
     padding-bottom: 2em;
 }
@@ -18,5 +18,5 @@ ul.no-bullets{
 ul.no-bullets li{
     padding: 5px;
     font-family: 'Cookie', cursive;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 }
