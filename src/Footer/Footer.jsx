@@ -14,7 +14,7 @@ class Footer extends React.Component {
       return (
         <nav className="footer">
           {/* <img className="icon-initial" alt=""></img> */}
-          <h5 className="footnote">Made with Love </h5><FontAwesomeIcon className="icon" icon={faCopyright}/>
+          <h5 className="footnote">Made with Love </h5><FontAwesomeIcon className="copyright-icon" icon={faCopyright}/>
           <h5 className="footnote">2022</h5>
         </nav>
       );

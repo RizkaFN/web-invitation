@@ -31,14 +31,17 @@ class App extends React.Component {
               place: 'Kediaman Bpk. Fahrodin'
             },
             location : {
-              url : "https://www.google.com/maps/place/Jl.+Kembar+Sari+Indah+No.19,+Cigereleng,+Kec.+Regol,+Kota+Bandung,+Jawa+Barat+40253/@-6.9453635,107.6096318,17z/data=!3m1!4b1!4m5!3m4!1s0x2e68e88dbaf54bf3:0x692fc4e530542178!8m2!3d-6.9453635!4d107.6118205",
-              address: 'Jl. kembar Sari Indah',
-              lat: -6.945342194768179,
-              lng: 107.61182049713892
+              url : "https://www.google.com/maps/place/Jl.+Wr.+Asem+ke+Timur+No.88,+RT.08%2FRW.02,+Nglandean,+Malasan,+Kec.+Durenan,+Kabupaten+Trenggalek,+Jawa+Timur+66381/@-8.1206197,111.8228438,20.44z/data=!4m5!3m4!1s0x2e791df55e3d9d83:0xf808524431b27c62!8m2!3d-8.1206391!4d111.8227379?hl=en",
+              address: 'Jl. Wr. Asem ke Timur No.88',
+              lat: -8.120648128812626,
+              lng:  111.82273194540633
             },
             covid_prokes : {
-              one : 'Memakai masker',
-              two : 'Menjaga jarak',
+              one : 'Wajib memakai masker.',
+              two : 'Setiap tamu dilakukan pengecekan suhu.',
+              three : 'Disediakan hand sanitizer di lokasi acara.',
+              four : 'Pembatasan jarak dan pembatasan jumlah tamu.',
+              five : 'Dipantau tim satgas covid.',
             }
         }
     }

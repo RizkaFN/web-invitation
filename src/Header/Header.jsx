@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faD, faDove } from '@fortawesome/free-solid-svg-icons'
+import { faDove } from '@fortawesome/free-solid-svg-icons'
 
 import './header.css'
 
@@ -28,7 +28,7 @@ class Header extends React.Component {
         <nav>
           <FontAwesomeIcon className="icon" icon={faDove} />
           {/* <img className="icon" src="../../public/ring.png" alt=""></img> */}
-          <h6 className="name-initial">The Wedding of {this.props.data.bride.nickname} & {this.props.data.groom.nickname}</h6>
+          <h1 className="name-initial">The Wedding of {this.props.data.bride.nickname} & {this.props.data.groom.nickname}</h1>
         </nav>
       );
     }

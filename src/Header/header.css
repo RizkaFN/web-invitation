@@ -8,15 +8,15 @@ nav {
 nav > .icon  {
   height: 30px;
   margin-right: 5px;
-  color: #B28228;
+  color: #B68005;
   padding: 10px;
 
 }
 
-nav > h6.name-initial{
+nav > h1.name-initial{
   margin: 0;
-  color: #B28228;
+  color: #B68005;
   font-size: x-large;
   font-weight: 22px;
-
+  font-family: 'Cookie', cursive;
 }

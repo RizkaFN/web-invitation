@@ -4,15 +4,19 @@
 }
 
 h1.prokes-title {
-    color: #FFB606;
-    font-style: oblique;
-    font-size: x-large;
-}
+    color: #B68005;
+    font-family: 'Cookie', cursive;
+    font-size: 3rem;}
 
 ul.no-bullets{
-    color: #FFB606;
-    font-style: oblique;
+    color: #DD9900;
     font-size: large;
     list-style-type: none;
-    padding-bottom: 10px;
+    padding-bottom: 2em;
+}
+
+ul.no-bullets li{
+    padding: 5px;
+    font-family: 'Cookie', cursive;
+    font-size: 1.3rem;
 }

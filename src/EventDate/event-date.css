@@ -4,19 +4,39 @@
 } */
 
 .date-class {
-    margin-top: 25px;
-    padding: 5px;
+    margin-top: 4em;
     text-align: center;
 }
 
 .event {
-    color: #FFB606;
+    color: #B68005;
     font-family: 'Cookie', cursive;
-    font-size: large;
+    font-size: 1.5rem;
 }
 
-h5.capitalize {
+h1.event{
+    font-size: 2.5rem;
+}
+
+p.event {
+    color: #DD9900;
+}
+
+p.capitalize {
     text-transform: capitalize;
 }
 
+.opening {
+    color: #B68005;
+    font-family: 'Cookie', cursive;
+}
+
+h1.opening{
+    font-size: 3rem;
+}
+
+p.opening {
+    font-size: 1.3rem;
+    padding-bottom: 1.3em;
+}
   

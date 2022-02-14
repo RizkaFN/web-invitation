@@ -5,12 +5,18 @@ import People from "../People/People";
 
 import './main-page.css';
 import StaticMap from "../Map/StaticMap";
+import Opening from "../EventDate/Opening";
 
 class MainPage extends React.Component {
 
     render() {
         return (
           <div className="container">
+              <div className="row-inline">
+                <div className="card-p column-other">
+                  <Opening></Opening>
+                </div>
+              </div>
               <div className="row-inline">
                 <div className="column card">
                   <People data={this.props.data} />

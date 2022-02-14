@@ -25,7 +25,7 @@ class People extends React.Component{
             <p className="content-txt capitalize">{this.state.bride.address}</p>
           </div>
           <div>
-            <h3 className="content-txt capitalize">dengan</h3>
+            <h1 className="content-txt capitalize">&</h1>
           </div>
           <div  className="person">
             <h1 className="content-txt capitalize">{this.state.groom.name}</h1>

@@ -26,6 +26,9 @@ class CovidProkes extends React.Component {
           <ul className="no-bullets">
             <li>{this.state.prokes.one}</li>
             <li>{this.state.prokes.two}</li>
+            <li>{this.state.prokes.three}</li>
+            <li>{this.state.prokes.four}</li>
+            <li>{this.state.prokes.five}</li>
           </ul>
         </div>
       </>

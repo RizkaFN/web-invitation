@@ -4,9 +4,10 @@
     background-color: #292929;
     /* background-image: url(../../public/symbol.png); */
     background-image: url(../../public/symbol2.png);
-    background-repeat: no-repeat;
-    background-position-x: 130%;
-    background-position-y: top;
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-size:contain;
+
     text-align: center;
 }
 
@@ -33,11 +34,22 @@
       display: block;
       margin-bottom: 20px;
     }
+
+    .container {
+        max-width: 100%;
+        padding: 2px 16px;
+        background-color: #292929;
+        /* background-image: url(../../public/symbol.png); */
+        background-image: url(../../public/symbol2.png);
+        background-repeat:repeat;
+        background-position:right top;
+        text-align: center;
+    }
 }
 
 .card {
     box-shadow: 0 4px 8px 0 #1c1c1c;
-    height: 425px;
+    height:39em;
     transition: 0.3s;
     margin: auto;
     padding: 5px;

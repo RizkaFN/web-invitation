@@ -33,14 +33,16 @@ class StaticMap extends React.Component {
     return (
       <>
           <div className="loc">
-            <h1 className="loc-title">Lokasi</h1>
+            <h1 className="loc-title">Lokasi Acara</h1>
+            <p>Kediaman Bapak Fahrodin, Trenggalek</p>
+            <p>Desa Malasan, Kecamatan Durenan, Kabupaten Trenggalek</p>
           </div>
 
           <div className="maplink">
             <a href={this.props.location.url}>
             <MapContainer
               center={this.props.location}
-              zoom={12}
+              zoom={14}
               className="static-map"
               // {...interactionOptions}
             >
